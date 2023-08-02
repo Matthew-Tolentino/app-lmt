@@ -8,3 +8,13 @@ $secondary-color: #212A3E;
 // App Breakpoints
 $bp-tablet: 768px;
 $bp-mobile: 480px;
+
+// Global defaults
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.ani-underline {
+  position: relative;
+  display: inline-block;
+  padding: 0 4px;
+  color: $primary-color;
+  cursor: pointer;
+}
+
+.ani-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: $primary-color;
+  transform: translateX(-50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.ani-underline:hover::after {
+  width: 100%;
+  transform: translate(-50%, 3px);
+}

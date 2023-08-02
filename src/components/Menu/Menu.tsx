@@ -7,26 +7,26 @@ function Menu() {
   const menuItems = ['Home', 'About', 'Skills', 'Portfolio', 'Resume/CV']
 
   return (
-    <div className="menu">
-      <button
+    <header>
+      <a className='logo'>Matthew Tolentino</a>
+      <div
+        className='menu-icon'
         onClick={() => setOpen(!open)}
         >
-        <span className="material-icons menu-icon">
+        <span className="material-icons">
           menu
         </span>
-      </button>
-      <div className={`menu-list ${open ? 'open' : ''}`}>
-        <ul>
-          {menuItems.map(item => {
-            return (
-              <li key={item} onClick={() => setOpen(false)}>
-                {item}
-              </li>
-            )
-          })}
-        </ul>
       </div>
-    </div>
+      <ul className={`menu-list ${open ? 'open' : ''}`}>
+        {menuItems.map(item => {
+          return (
+            <li key={item} onClick={() => setOpen(false)}>
+              <a href="#">{item}</a>
+            </li>
+          )
+        })}
+      </ul>
+    </header>
   );
 }
 
