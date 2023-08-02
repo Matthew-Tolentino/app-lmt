@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/app-lmt/static/css/main.4035f0db.css",
-    "main.js": "/app-lmt/static/js/main.dc029e79.js",
+    "main.css": "/app-lmt/static/css/main.a50d2e32.css",
+    "main.js": "/app-lmt/static/js/main.61f90877.js",
     "static/js/787.62166c57.chunk.js": "/app-lmt/static/js/787.62166c57.chunk.js",
+    "static/media/BlueHero.jpg": "/app-lmt/static/media/BlueHero.a87f9d2bb74f1d174f32.jpg",
     "index.html": "/app-lmt/index.html",
-    "main.4035f0db.css.map": "/app-lmt/static/css/main.4035f0db.css.map",
-    "main.dc029e79.js.map": "/app-lmt/static/js/main.dc029e79.js.map",
+    "main.a50d2e32.css.map": "/app-lmt/static/css/main.a50d2e32.css.map",
+    "main.61f90877.js.map": "/app-lmt/static/js/main.61f90877.js.map",
     "787.62166c57.chunk.js.map": "/app-lmt/static/js/787.62166c57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4035f0db.css",
-    "static/js/main.dc029e79.js"
+    "static/css/main.a50d2e32.css",
+    "static/js/main.61f90877.js"
   ]
 }
