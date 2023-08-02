@@ -1,12 +1,6 @@
 @import '../../styles.scss';
 @import '../../shared/scss/ani-underline.scss';
 
-// ul li {
-//   @extend .ani-underline;
-//   display: inline;
-//   padding: 0 3px;
-// }
-
 header {
   position: fixed;
   right: 0;
@@ -16,16 +10,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 9%;
-  // background: transparent;
+  padding: 16px 9% 16px 3%;
   background: linear-gradient(270deg, $base-color 0%,
       $base-color2 28.53%,
       $base-color3 63.52%)
 }
 
 .logo {
-  font-size: 30px;
-  font-weight: 600;
+  width: 64px;
+  height: auto;
   color: $primary-color;
 }
  
@@ -50,7 +43,7 @@ header {
   display: none;
 }
 
-@media (max-width: $bp-tablet) {
+@media (max-width: $bp-mobile) {
   .menu-icon {
     display: block;
   }

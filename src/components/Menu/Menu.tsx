@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from "../../imgs/_Logocrop.png";
 import './Menu.scss';
 
 function Menu() {
@@ -8,7 +9,8 @@ function Menu() {
 
   return (
     <header>
-      <a className='logo'>Matthew Tolentino</a>
+      {/* <a className='logo'>Matthew Tolentino</a> */}
+      <img className="logo" src={logo} alt="logo"></img>
       <div
         className='menu-icon'
         onClick={() => setOpen(!open)}
