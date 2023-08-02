@@ -10,7 +10,9 @@ function Menu() {
 
   return (
     <header>
-      <img className="logo" src={logo} alt="logo"></img>
+      <Link activeClass='active' smooth spy to='About'>
+        <img className="logo" src={logo} alt="logo"></img>
+      </Link>
       <div
         className='menu-icon'
         onClick={() => setOpen(!open)}
