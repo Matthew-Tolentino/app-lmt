@@ -73,4 +73,9 @@ div p {
   .photo-section {
     grid-area: 3 / 1 / 4 / 2;
   }
+
+  .hero {
+    width: 80vw;
+    min-width: 250px;
+  }
 }
