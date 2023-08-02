@@ -18,3 +18,21 @@ $bp-mobile: 480px;
   list-style: none;
   text-decoration: none;
 }
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: $base-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $base-color2;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $base-color3;
+}
