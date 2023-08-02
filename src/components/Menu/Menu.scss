@@ -26,14 +26,27 @@
   transform: translate(-50%, 3px);
 }
 
+ul {
+  height: 24px;
+}
+
 ul li {
   @extend .ani-underline;
   display: inline;
   padding: 0 3px;
 }
 
+.menu-icon {
+  margin: 16px;
+  display: none;
+}
+
 @media (max-width: $bp-mobile) {
-  ul li {
-    background-color: red;
+  .menu-icon {
+    display: block;
+  }
+
+  ul {
+    display: none;
   }
 }
