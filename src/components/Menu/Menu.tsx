@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import logo from "../../imgs/_Logocrop.png";
 import './Menu.scss';
+import { Link } from "react-scroll";
 
 function Menu() {
   const [open, setOpen] = useState(false);
 
-  const menuItems = ['Home', 'About', 'Skills', 'Portfolio', 'Resume/CV']
+  const menuItems = ['About', 'Skills', 'Projects', 'Resume', 'Contact']
 
   return (
     <header>
-      {/* <a className='logo'>Matthew Tolentino</a> */}
       <img className="logo" src={logo} alt="logo"></img>
       <div
         className='menu-icon'
@@ -22,8 +22,12 @@ function Menu() {
       <ul className={`menu-list ${open ? 'open' : ''}`}>
         {menuItems.map(item => {
           return (
-            <li key={item} onClick={() => setOpen(false)}>
-              <a href="#">{item}</a>
+            <li key={item}>
+              <Link activeClass="active" smooth spy to={item}
+                onClick={() => setOpen(false)}
+              >
+                {item}
+              </Link>
             </li>
           )
         })}

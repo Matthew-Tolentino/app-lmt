@@ -10,7 +10,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 9% 16px 3%;
+  padding: 16px;
+  // background: transparent;
   background: linear-gradient(270deg, $base-color 0%,
       $base-color2 28.53%,
       $base-color3 63.52%)
@@ -26,7 +27,7 @@ header {
   display: flex;
 }
 
-.menu-list a {
+.menu-list li {
   @extend .ani-underline;
   color: $primary-color;
   margin-left: 1em;
@@ -62,7 +63,7 @@ header {
     transition: all .55s ease;
   }
 
-  .menu-list a {
+  .menu-list li {
     display: block;
     margin: 30px 0;
     margin-left: 0;

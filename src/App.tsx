@@ -7,21 +7,12 @@ import Menu from './components/Menu/Menu';
 function App() {
   return (
     <div className="App">
-      <Menu/>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Idiot
-        </a>
-      </header> */}
+      <Menu />
+      <section id="About">About</section>
+      <section id="Skills">Skills</section>
+      <section id="Projects">Projects</section>
+      <section id="Resume">Resume/CV</ section>
+      <section id="Contact">Contact</ section>
     </div>
   );
 }
