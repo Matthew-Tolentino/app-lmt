@@ -26,14 +26,25 @@
   transform: translate(-50%, 3px);
 }
 
-ul {
-  height: 24px;
+// ul {
+//   position: relative;
+//   left: 0;
+//   top: 0;
+//   height: 24px;
+// }
+
+.menu {
+  overflow-x: hidden;
 }
 
 ul li {
   @extend .ani-underline;
   display: inline;
   padding: 0 3px;
+}
+
+.menu-list {
+  height: 24px;
 }
 
 .menu-icon {
@@ -46,7 +57,28 @@ ul li {
     display: block;
   }
 
-  ul {
-    display: none;
+  .menu-list {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
   }
+
+  .menu-list.open {
+    width: 100%;
+    left: 0;
+  }
+
+  // ul {
+  //   position: absolute;
+  //   width: 100vw;
+  //   // height: 100vh;
+  //   left: 50%;
+  //   top: 0;
+  //   padding: 0;
+  //   transition: all 0.3s ease;
+  // }
 }
