@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './About.scss';
+import hero from '../../imgs/BlueHero.jpg';
 
 function About() {
   return (
@@ -27,6 +28,10 @@ function About() {
             or playing a competitive shooter.           
           </p>
         </div>
+      </div>
+
+      <div className='photo-section'>
+        <img className="hero" src={hero} alt="logo"></img>
       </div>
     </div>
   );

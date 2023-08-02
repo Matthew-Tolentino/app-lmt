@@ -5,14 +5,30 @@
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
 }
 
 .header-section {
   grid-area: 1 / 1 / 1 / 1;
+  margin: auto 0;
 }
 
 .about-section {
   grid-area: 2 / 1 / 2 / 1;
+  margin: auto 0;
+}
+
+.photo-section {
+  grid-row: 1 / 3;
+  grid-column: 2 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero { 
+  width: 400px;
+  height: auto;
 }
 
 .title {
@@ -38,4 +54,23 @@ div p {
   @extend .content;
   font-size: 16px;
   margin-bottom: 1em;
+}
+
+@media (max-width: $bp-tablet) {
+  .about {
+    grid-template-rows: .3fr .3fr .3fr;
+    grid-template-columns: 1fr;
+  }
+
+  .header-section {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .about-section {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .photo-section {
+    grid-area: 3 / 1 / 4 / 2;
+  }
 }
