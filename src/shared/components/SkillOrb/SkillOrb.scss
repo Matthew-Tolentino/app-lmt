@@ -1,0 +1,39 @@
+@import '../../../styles.scss';
+
+.circle {
+  border: 1px solid $base-color3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background-color: $primary-color; 
+  background-color: $secondary-color; 
+  color: $text-color;
+}
+
+.center-orb {
+  @extend .circle;
+  width: 25%;
+  aspect-ratio: 1 /1;
+  font-size: 24px;
+  position: relative;
+  // background-color: $secondary-color;
+  background-color: $primary-color;
+  border-color: $ternary-color;
+  box-shadow: 3px 3px 3px $base-color2;
+}
+
+.outer-orb {
+  @extend .circle;
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  font-size: 16px;
+  position: absolute;
+  transform: rotate(var(--angle)) translate((200%)) rotate(var(--negangle));
+  transition: transform .25s ease-in-out;
+}
+
+.outer-orb:hover {
+  transform: rotate(var(--angle)) translate((200%)) rotate(var(--negangle)) translateY(-10px);
+  box-shadow: 3px 3px 10px $base-color;
+}

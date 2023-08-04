@@ -31,7 +31,7 @@ function Menu() {
                 {item}
               </Link>
             </li>
-          )
+          );
         })}
       </ul>
     </header>
