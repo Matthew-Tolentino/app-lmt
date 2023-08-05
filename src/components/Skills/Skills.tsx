@@ -11,7 +11,7 @@ function Skills() {
     },
     {
       name: 'Backend',
-      skillset: ['.Net', 'RESTful API', 'MongoDB', 'PostgreSQL']
+      skillset: ['.Net', 'RESTful API', 'MongoDB', 'PostgreSQL', 'LINQ', 'Entity Framework']
     },
   ]
 

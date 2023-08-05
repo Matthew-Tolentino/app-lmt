@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: .5fr .5fr;
   grid-template-rows: 1fr;
-  grid-gap: 1em;
+  // grid-gap: 1em;
   place-items: center;
 }
 
@@ -31,7 +31,7 @@
 @media (max-width: $bp-tablet) {
   .skill-grid {
     grid-template-columns: 100%;
-    grid-template-rows: repeat(var(--skillsLength) , 100vw);
+    grid-template-rows: repeat(var(--skillsLength) , 75vw);
   }
   
   .backend-orb {
