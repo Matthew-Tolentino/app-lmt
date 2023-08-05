@@ -1,24 +1,12 @@
 import React, { useState } from 'react';
 import './SkillOrb.scss';
-import { transform } from 'typescript';
+import { Skill } from '../../models/Skill';
 
-function SkillOrb() {
-  let skills = [
-    'HTML',
-    'CSS/SCSS',
-    'Angular',
-    'React',
-    'Bootstrap',
-    'Javascript',
-    'Typescript',
-    'Material UI',
-    'Node.js',
-  ]
-
+function SkillOrb(skill: Skill) {
   return (
     <div className="center-orb">
-      Frontend
-      {setChildren(skills)}
+      {skill.name}
+      {setChildren(skill.skillset)}
     </div>
   );
 }

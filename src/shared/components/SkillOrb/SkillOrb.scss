@@ -13,9 +13,9 @@
 
 .center-orb {
   @extend .circle;
-  width: 25%;
+  width: 35%;
   aspect-ratio: 1 /1;
-  font-size: 24px;
+  font-size: 75%;
   position: relative;
   // background-color: $secondary-color;
   background-color: $primary-color;
@@ -27,8 +27,9 @@
   @extend .circle;
   width: 50%;
   aspect-ratio: 1 / 1;
-  font-size: 16px;
+  font-size: 50%;
   position: absolute;
+  text-align: center;
   transform: rotate(var(--angle)) translate((200%)) rotate(var(--negangle));
   transition: transform .25s ease-in-out;
 }
@@ -36,4 +37,15 @@
 .outer-orb:hover {
   transform: rotate(var(--angle)) translate((200%)) rotate(var(--negangle)) translateY(-10px);
   box-shadow: 3px 3px 10px $base-color;
+}
+
+@media (max-width: $bp-tablet) {
+  .center-orb {
+    width: 25%;
+    font-size: 50%;
+  }
+
+  .outer-orb {
+    // font-size: 25%;
+  }
 }
