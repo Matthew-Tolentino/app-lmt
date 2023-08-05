@@ -36,7 +36,7 @@ function Skills() {
         {
           skillOrbs.map((orb, index) => {
             return (
-              <div className={`orb-${index + 1} orb`}>
+              <div className={`orb-${index + 1} orb reveal-top-1`}>
                 <SkillOrb {...orb} />
               </div>
             );

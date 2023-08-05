@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './About.scss';
 import hero from '../../imgs/BlueHero.jpg';
+import ScrollReveal from "scrollreveal";
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
         {/* <h6>I am a full stack developer based in Los Angelas, CA</h6> */}
       </div>
       
-      <div className='about-section'>
+      <div className='about-section reveal-top-1'>
         <div className='title'>
           About
         </div>
@@ -24,14 +25,14 @@ function About() {
           <p>Currently I work to build reliable and scalable products for our clients at Brandes
             Associates. In my free time, I work on side projects to sharpen my skills as a full 
             stack developer.</p>
-          <p>When I am not coding, I'm usually pickleballing, hanging out with family and friends
+          <p>When I am not coding, I'm usually pickleballing, hanging out with family and friends,
             or playing video games.
           </p>
         </div>
       </div>
 
       <div className='photo-section'>
-        <img className="hero" src={hero} alt="logo"></img>
+        <img className="hero reveal-top-3" src={hero} alt="logo"></img>
       </div>
     </div>
   );
