@@ -2,7 +2,7 @@
 @import '../../styles.scss';
 @import '../../shared/scss/section-title.scss';
 
-$len: 3;
+$len: 5;
 
 @mixin orb-gen-bp-laptop() {
   // $len: str-length(var(--strorbs));
@@ -59,7 +59,7 @@ $len: 3;
 @media (max-width: $bp-desktop) {
   .skill-grid {
     grid-template-columns: 100%;
-    // grid-template-rows: repeat($len , 780px);
+    grid-template-rows: repeat($len , 780px);
   }
   
   @include orb-gen-bp-laptop();  

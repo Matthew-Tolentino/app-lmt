@@ -9,7 +9,7 @@ function Skills() {
   let skillOrbs: Skill[] = [
     {
       name: 'Frontend',
-      skillset: ['HTML', 'CSS/SCSS', 'Angular', 'React', 'Bootstrap', 'Javascript', 'Typescript', 'Material UI', 'Node.js']
+      skillset: ['HTML', 'CSS/SCSS', 'Angular', 'React', 'Bootstrap', 'Material UI', 'Node.js']
     },
     {
       name: 'Backend',
@@ -18,6 +18,14 @@ function Skills() {
     {
       name: 'Testing',
       skillset: ['Jest', 'xUnit', 'Cypress', 'e2e', 'Regression']
+    },
+    {
+      name: 'Languages',
+      skillset: ['C#', 'JavaScript', 'TypeScript', 'Python']
+    },
+    {
+      name: 'Development Technologies',
+      skillset: ['VS Code', 'VS Proper', 'Docker', 'Unity', 'Git']
     },
   ]
 

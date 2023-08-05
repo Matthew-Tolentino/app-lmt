@@ -15,7 +15,7 @@ function setChildren(skills: string[]) {
   let angle = 360 / skills.length;
   return (
     skills.map((skill, index) => {
-      let rotAngle = (angle * index) + 90;
+      let rotAngle = (angle * index) + 270;
 
       return (
         <div 
