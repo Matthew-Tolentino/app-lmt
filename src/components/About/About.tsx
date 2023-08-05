@@ -17,15 +17,15 @@ function About() {
         </div>
         <div>
           <p>
-            During my college career I decieded to try my hand at web development and take a 
+            During my college career I decieded to try my hand at web development and took a 
             course at my university. I found myself throughly enjoying the development process
             and ended up creating my first web-app.
           </p>
           <p>Currently I work to build reliable and scalable products for our clients at Brandes
-            Assocaites. In my free time I work on side projects to sharpen my skills as a full 
+            Associates. In my free time, I work on side projects to sharpen my skills as a full 
             stack developer.</p>
           <p>When I am not coding, I'm usually pickleballing, hanging out with family and friends
-            or playing a competitive shooter.           
+            or playing video games.
           </p>
         </div>
       </div>
