@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import SkillOrb from '../../shared/components/SkillOrb/SkillOrb';
-import './Skills.scss';
 import { Skill } from '../../shared/models/Skill';
+import './Skills.scss';
 
 function Skills() {
+
+  // Note: If you add to this array change $len in scss file
   let skillOrbs: Skill[] = [
     {
       name: 'Frontend',
@@ -16,26 +18,24 @@ function Skills() {
     {
       name: 'Testing',
       skillset: ['Jest', 'xUnit', 'Cypress', 'e2e', 'Regression']
-    }
+    },
   ]
 
   return (
-    <div 
-      className='skill-grid'
-      style={{
-        '--skillsLength': skillOrbs.length
-      } as React.CSSProperties}
-    >
-      {
-        skillOrbs.map((orb) => {
-          return (
-            <div className={`${orb.name.toLowerCase()}-orb orb`}>
-              <SkillOrb {...orb} />
-            </div>
-          );
-        })
-      }
-    </div>
+    <>
+      <div className="section-title">Skills</div>
+      <div className='skill-grid'>
+        {
+          skillOrbs.map((orb, index) => {
+            return (
+              <div className={`orb-${index + 1} orb`}>
+                <SkillOrb {...orb} />
+              </div>
+            );
+          })
+        }
+      </div>
+    </>
   );
 }
 
