@@ -13,6 +13,10 @@ function Skills() {
       name: 'Backend',
       skillset: ['.Net', 'RESTful API', 'MongoDB', 'PostgreSQL', 'LINQ', 'Entity Framework']
     },
+    {
+      name: 'Testing',
+      skillset: ['Jest', 'xUnit', 'Cypress', 'e2e', 'Regression']
+    }
   ]
 
   return (
@@ -25,7 +29,7 @@ function Skills() {
       {
         skillOrbs.map((orb) => {
           return (
-            <div className={`${orb.name.toLowerCase()}-orb`}>
+            <div className={`${orb.name.toLowerCase()}-orb orb`}>
               <SkillOrb {...orb} />
             </div>
           );
