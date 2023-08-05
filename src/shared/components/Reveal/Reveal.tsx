@@ -22,4 +22,9 @@ export function Reveal() {
     sr.reveal('.reveal-bot-1', Object.assign(opts, {origin: 'bottom'}));
     sr.reveal('.reveal-bot-2', Object.assign(opts, { delay: 200 * 2 }));
     sr.reveal('.reveal-bot-3', Object.assign(opts, { delay: 200 * 3 }));
-}
+    
+    Object.assign(opts, dopts);
+    sr.reveal('.reveal-left-1', Object.assign(opts, { origin: 'left' }));
+    sr.reveal('.reveal-left-2', Object.assign(opts, { delay: 200 * 2 }));
+    sr.reveal('.reveal-left-3', Object.assign(opts, { delay: 200 * 3 }));
+  }
