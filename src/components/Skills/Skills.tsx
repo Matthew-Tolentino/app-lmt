@@ -24,7 +24,7 @@ function Skills() {
       skillset: ['C#', 'JavaScript', 'TypeScript', 'Python']
     },
     {
-      name: 'Development Technologies',
+      name: 'Dev Tech',
       skillset: ['VS Code', 'VS Proper', 'Docker', 'Unity', 'Git']
     },
   ]
