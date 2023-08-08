@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 function Menu() {
   const [open, setOpen] = useState(false);
 
-  const menuItems = ['About', 'Skills', 'Projects', 'Resume', 'Contact']
+  const menuItems = ['About', 'Skills', 'Experience', 'Projects', 'Resume', 'Contact']
 
   return (
     <header>

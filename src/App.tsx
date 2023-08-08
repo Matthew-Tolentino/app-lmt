@@ -17,6 +17,7 @@ function App() {
       <Menu />
       <section id="About"><About /></section>
       <section id="Skills"><Skills /></section>
+      <section id="Experience">Experience</section>
       <section id="Projects">Projects</section>
       <section id="Resume">Resume/CV</ section>
       <section id="Contact">Contact</ section>
