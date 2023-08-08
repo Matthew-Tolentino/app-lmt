@@ -10,9 +10,9 @@ function Experience(props: any) {
       <div className="exp-header">
         {job.company} - {job.title}
       </div>
-      <span className='exp-date'>
+      <div className='exp-date'>
         {job.dateRange}
-      </span>  
+      </div>  
       <div className='content'>
         {job.description}
       </div>

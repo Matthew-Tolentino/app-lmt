@@ -15,13 +15,13 @@ function Experiences() {
     {
       company: 'iDTech Camps',
       title: 'Online Instructor',
-      dateRange: 'J| April 2020 - January 2021',
+      dateRange: 'April 2020 - January 2021',
       description: 'Reversed engineered routing configurations to map out networks and utilize python to create scripts for easy config deployment.',
       skills: ['Unity', 'C#', 'Python', 'Machine Learning']
     },
     {
       company: 'Pugonetworks',
-      title: 'Junior Network Administrator/Programmer',
+      title: 'Junior Network Admin / Programmer',
       dateRange: 'June 2016 - September 2019',
       description: 'Reversed engineered routing configurations to map out networks and utilize python to create scripts for easy config deployment.',
       skills: ['Python', 'Visio', 'BGP Protocol', 'Routing']
