@@ -1,0 +1,27 @@
+@import '../../styles.scss';
+
+$margin: 25vw;
+
+.experiences-grid {
+  width: calc(100vw - $margin * 2);
+  height: 100%;
+  margin: 0 $margin 0 $margin;
+
+  // border: 1px solid black;
+}
+
+@media (max-width: $bp-laptop) {
+  $margin: 15vw;
+  .experiences-grid {
+    width: calc(100vw - $margin * 2);
+    margin: 0 $margin 0 $margin;
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  $margin: 0vw;
+  .experiences-grid {
+    width: calc(100vw - $margin * 2);
+    margin: 0 $margin 0 $margin;
+  }
+}

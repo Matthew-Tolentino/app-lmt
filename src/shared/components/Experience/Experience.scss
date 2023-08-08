@@ -1,0 +1,47 @@
+@import '../../../styles.scss';
+
+.exp-container {
+  padding: .5em;
+  // border: 1px solid red;
+}
+
+.exp-header {
+  color: $primary-color;
+  font-weight: bold;
+}
+
+.exp-date {
+  color: $ternary-color;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.content {
+  font-size: 16px;
+}
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  // padding-top: .5rem;
+}
+
+.skill-chip {
+  display: inline;
+  font-size: 16px;
+  font-weight: 500;
+  // background-color: $skill-background;
+  background-color: $base-color3;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+  border-radius: 2rem;
+  padding: 0 .5rem 0 .5rem;
+  margin-right: .5rem;
+  margin-top: .5rem;
+  transition: transform .25s ease-in-out;
+}
+
+// .skill-chip:hover {
+//   border-color: $base-color2;
+//   transform: translateX(3px);
+// }
