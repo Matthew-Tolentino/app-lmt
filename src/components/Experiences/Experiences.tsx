@@ -33,9 +33,9 @@ function Experiences() {
       <div className="section-title">Experience</div>
       <div className="experiences-grid">
         {
-          jobs.map(job => {
+          jobs.map((job: Job, index: number) => {
             return (
-              <Experience {...job}/>
+              <Experience index={index} job={job}/>
             );
           })
         }
