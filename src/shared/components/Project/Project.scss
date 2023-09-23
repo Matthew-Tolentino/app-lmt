@@ -1,0 +1,55 @@
+@import '../../../styles.scss';
+
+.proj-container {
+  // width: 100%;
+  // height: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  place-items: center;
+  // border: 1px solid green;
+
+  padding-bottom: .5em;
+}
+
+.proj-img {
+  width: 100%;
+  height: 100%;
+  grid-area: 2 / 1 / 4 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  // border: 1px solid red
+}
+
+.proj-content {
+  grid-area: 1 / 3 / 5 / 9;  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  // border: 1px solid blue
+}
+
+@media (max-width: $bp-laptop) {
+  .proj-container {
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .proj-img {
+    grid-area: 1 / 3 / 4 / 7;
+  }
+
+  .proj-content {
+    grid-area: 4 / 1 / 9 / 9;
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .proj-img {
+    grid-area: 1 / 2 / 4 / 8;
+  }
+}

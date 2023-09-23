@@ -9,7 +9,6 @@ export function Reveal() {
       duration: 1000,
       delay: 200,
       easing: 'ease-in-out',
-      reset: true
     }
 
     const opts = {...dopts};

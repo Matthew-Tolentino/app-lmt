@@ -7,6 +7,7 @@ import Skills from './components/Skills/Skills';
 import Experiences from './components/Experiences/Experiences';
 
 import { Reveal } from './shared/components/Reveal/Reveal';
+import Projects from './components/Projects/Projects';
 
 function App() {
   useEffect(() => {
@@ -18,7 +19,7 @@ function App() {
       <Menu />
       <section id="About"><About /></section>
       <section id="Experience"><Experiences /></section>
-      <section id="Projects">Projects</section>
+      <section id="Projects"><Projects /></section>
       <section id="Skills"><Skills /></section>
       <section id="Resume">Resume/CV</ section>
       <section id="Contact">Contact</ section>

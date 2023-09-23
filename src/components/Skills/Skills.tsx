@@ -15,18 +15,18 @@ function Skills() {
       name: 'Backend',
       skillset: ['.Net', 'RESTful API', 'MongoDB', 'PostgreSQL', 'LINQ', 'Entity Framework']
     },
-    {
-      name: 'Testing',
-      skillset: ['Jest', 'xUnit', 'Cypress', 'e2e', 'Regression']
-    },
-    {
-      name: 'Languages',
-      skillset: ['C#', 'JavaScript', 'TypeScript', 'Python']
-    },
-    {
-      name: 'Dev Tech',
-      skillset: ['VS Code', 'VS Proper', 'Docker', 'Unity', 'Git']
-    },
+    // {
+    //   name: 'Testing',
+    //   skillset: ['Jest', 'xUnit', 'Cypress', 'e2e', 'Regression']
+    // },
+    // {
+    //   name: 'Languages',
+    //   skillset: ['C#', 'JavaScript', 'TypeScript', 'Python']
+    // },
+    // {
+    //   name: 'Dev Tech',
+    //   skillset: ['VS Code', 'VS Proper', 'Docker', 'Unity', 'Git']
+    // },
   ]
 
   return (
