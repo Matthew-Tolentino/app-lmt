@@ -5,10 +5,33 @@ section {
   display: grid;
   place-items: center;
   height: auto;
-  min-height: 100vh;
+  // min-height: 100vh;
   font-size: 32px;
   // font-weight: bold;
   background: linear-gradient(270deg, $base-color 0%,
         $base-color2 28.53%,
         $base-color3 63.52%)
+}
+
+footer {
+  display: grid;
+  place-items: center;
+  height: auto;
+  max-height: calc(100vh / 4);
+  min-height: calc(100vh / 4);
+  background: linear-gradient(270deg, $base-color 0%,
+        $base-color2 28.53%,
+        $base-color3 63.52%)
+}
+
+.section-title {
+  color: $primary-color;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+  // text-align: center;
+  // display: grid;
+  // place-items: center;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh
 }
