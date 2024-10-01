@@ -1,0 +1,78 @@
+@import '../../styles.scss';
+
+$margin: 25vw;
+
+.contact-grid {
+  width: calc(100vw - $margin * 2);
+  height: 100%;
+  margin: 0 $margin 0 $margin;
+
+  // border: 1px solid black;
+}
+
+@media (max-width: $bp-laptop) {
+  $margin: 15vw;
+
+  .contact-grid {
+    width: calc(100vw - $margin * 2);
+    margin: 0 $margin 0 $margin;
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  $margin: 5vw;
+
+  .contact-grid {
+    width: calc(100vw - $margin * 2);
+    margin: 0 $margin 0 $margin;
+  }
+}
+
+.contact-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.contact-list li {
+  display: block;
+  flex: 0 1 auto;
+  list-style-type: none;
+  // background: #fafafa;
+}
+
+.contact-list li a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  color: $primary-color;
+  align-items: center;
+  font-size: 2em;
+}
+
+.contact-list li a:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+@media (max-width: $bp-tablet) {
+  $margin: 30vw;
+
+  .contact-grid {
+    width: calc(100vw - $margin * 2);
+    height: 100%;
+    margin: 0 $margin 0 $margin;
+
+    // border: 1px solid black;
+  }
+}
+
+// @media (max-width: $bp-mobile) {
+//   $margin: 35vw;
+//   .contact-grid {
+//       width: calc(100vw - $margin * 2);
+//       height: 100%;
+//       margin: 0 $margin 0 $margin;
+  
+//       // border: 1px solid black;
+//     }
+// }
