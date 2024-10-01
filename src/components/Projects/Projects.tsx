@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './Projects.scss';
 import { Proj } from '../../shared/models/Proj';
 import Project from '../../shared/components/Project/Project';
+import DemoPlayer from '../../shared/components/DemoPlayer/DemoPlayer';
+import emailAppImg from '../../imgs/EmailApp.png';
 
 function Projects() {
   let projs: Proj[] = [
@@ -13,7 +15,9 @@ function Projects() {
     {
       title: 'Email Webapp',
       description: 'Full stack email web app that handles authentication, emails, and customizable settings for users.',
-      skills: ['React', 'Javascript', 'HTML', 'CSS', 'PosgreSQL', 'Node.js', 'Express']
+      skills: ['React', 'Javascript', 'HTML', 'CSS', 'PosgreSQL', 'Node.js', 'Express'],
+      link: 'https://youtu.be/ZRrP2HGJyxc',
+      image: emailAppImg
     },
   ];
 
@@ -29,6 +33,7 @@ function Projects() {
           })
         }
       </div>
+      <div><DemoPlayer /></div>
     </>
   );
 }

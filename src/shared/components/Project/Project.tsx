@@ -7,7 +7,11 @@ function Project(props: any) {
   return (
     <div className='proj-container reveal-left-1'>
       <div className='proj-img'>
-        image
+        {
+          proj.image 
+            ? ( <img className="hero" src={proj.image}></img> ) 
+            : "image"
+        }
       </div>
       <div className='proj-content'>
         <div className='exp-header'>
