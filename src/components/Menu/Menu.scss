@@ -65,6 +65,7 @@ header {
     background: linear-gradient(270deg, $base-color 0%,
           $base-color2 28.53%,
           $base-color3 63.52%);
+    transform: translateY(-100px);
   }
 
   .menu-list li {
