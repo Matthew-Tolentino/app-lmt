@@ -11,7 +11,8 @@
   padding: 50px 20px;
   transition: all .55s ease;
   transform: translateY(-100vh);
-  background: green;
+  // background: green;
+  z-index: 10002;
 }
 
 .demo-player.open {

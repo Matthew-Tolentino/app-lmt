@@ -1,11 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Project.scss';
 
 function Project(props: any) {
-  const {index, proj} = props;
+  const {index, proj, onOpenDemoPlayer} = props;
 
   return (
-    <div className='proj-container reveal-left-1'>
+    <div 
+      className='proj-container reveal-left-1'
+      onClick={() => onOpenDemoPlayer(proj.link)}
+    >
       <div className='proj-img'>
         {
           proj.image 
