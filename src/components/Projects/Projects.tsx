@@ -14,7 +14,7 @@ function Projects(props: any) {
       title: 'Naval Data Distribution System (NDDS)',
       description: 'Web app designed for secure global distribution of files and software to deployed ships and carriers.',
       skills: ['Angular', 'Typescript', 'HTML', 'CSS', 'Docker', '.NET', 'SQL', 'MongoDB'],
-      link: "https://www.youtube.com/embed/dgJh9ie6saA?si=N8bfi5fN1sLk94Vc",
+      // link: "https://www.youtube.com/embed/dgJh9ie6saA?si=N8bfi5fN1sLk94Vc",
       image: nddsImg
     },
     {

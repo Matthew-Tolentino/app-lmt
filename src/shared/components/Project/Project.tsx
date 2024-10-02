@@ -6,8 +6,8 @@ function Project(props: any) {
 
   return (
     <div 
-      className='proj-container reveal-left-1'
-      onClick={() => onOpenDemoPlayer(proj.link)}
+      className={`proj-container reveal-left-1 ${proj.link ? 'proj-ptr' : ''}`}
+      onClick={() => proj.link ? onOpenDemoPlayer(proj.link) : () => {}}
     >
       <div className='proj-img'>
         {

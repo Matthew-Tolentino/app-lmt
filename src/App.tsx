@@ -22,7 +22,7 @@ function App() {
 
   const closeDemoPlayer = () => {
     setDemoOpen(false);
-    setTimeout(() => setDemoLink(null), 550);
+    // setTimeout(() => setDemoLink(null), 550);
   };
 
   useEffect(() => {
