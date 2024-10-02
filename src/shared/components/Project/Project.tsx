@@ -9,7 +9,7 @@ function Project(props: any) {
       <div className='proj-img'>
         {
           proj.image 
-            ? ( <img className="hero" src={proj.image}></img> ) 
+            ? ( <img className="img" src={proj.image}></img> ) 
             : "image"
         }
       </div>
