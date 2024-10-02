@@ -15,6 +15,17 @@
   z-index: 10002;
 }
 
+.demo-player iframe {
+  width: 50vw;
+  height: 50vh;
+}
+
 .demo-player.open {
   right: 0;
+}
+
+@media (max-width: $bp-mobile) {
+  .demo-player iframe {
+    height: 20vh;
+  }
 }
