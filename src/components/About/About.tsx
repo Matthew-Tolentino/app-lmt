@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about'>
       <div className='header-section reveal-left-1'>
-        <h1>Leonard Matthew Tolentino</h1>
+        <h1>Leonard Matthew Tolentino II</h1>
         <h4 className='sub-title'>Full Stack Developer @ Brandes Associates</h4>
         {/* <h6>I am a full stack developer based in Los Angelas, CA</h6> */}
       </div>
