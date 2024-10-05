@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.f8b6e1c9.css",
-    "main.js": "/static/js/main.50fa8e33.js",
+    "main.js": "/static/js/main.b3367234.js",
     "static/js/453.234a6067.chunk.js": "/static/js/453.234a6067.chunk.js",
     "static/media/BlueHero.jpg": "/static/media/BlueHero.a87f9d2bb74f1d174f32.jpg",
     "static/media/EmailApp.png": "/static/media/EmailApp.2a3e224e262e8ef2d365.png",
     "static/media/NDDS_Splash_Logo.svg": "/static/media/NDDS_Splash_Logo.ded10d0e7a2644e167cc355bddb11716.svg",
     "index.html": "/index.html",
     "main.f8b6e1c9.css.map": "/static/css/main.f8b6e1c9.css.map",
-    "main.50fa8e33.js.map": "/static/js/main.50fa8e33.js.map",
+    "main.b3367234.js.map": "/static/js/main.b3367234.js.map",
     "453.234a6067.chunk.js.map": "/static/js/453.234a6067.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8b6e1c9.css",
-    "static/js/main.50fa8e33.js"
+    "static/js/main.b3367234.js"
   ]
 }
