@@ -18,15 +18,20 @@ function About() {
         </div>
         <div>
           <p>
-            During my college career I decieded to try my hand at web development and took a 
-            course at my university. I found myself throughly enjoying the development process
-            and ended up creating my first web-app.
+            Back in 2020, I decided to try my hand at web development by taking a course at my 
+            university, which sparked my journey as a developer and opened the door to a complex, 
+            long-term project for the Department of Defense. This opportunity has allowed me to 
+            hone my skills in developing reliable and secure web applications within highly regulated
+            environments.
           </p>
-          <p>Currently I work to build reliable and scalable products for our clients at Brandes
-            Associates. In my free time, I work on side projects to sharpen my skills as a full 
-            stack developer.</p>
-          <p>When I am not coding, I'm usually pickleballing, hanging out with family and friends,
-            or playing video games.
+          <p>
+            Currently, I am part of the team at Brandes Associates, where I focus on delivering 
+            high-quality software solutions. I’m eager to explore new technologies, expand my skill
+            set, and I look forward to exciting new opportunities.
+          </p>
+          <p>
+            Outside of coding, you can usually find me rock climbing, hiking, or gaming — always 
+            seeking the next adventure, whether it’s on the mountain or in a virtual world.
           </p>
         </div>
       </div>
