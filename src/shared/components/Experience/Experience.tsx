@@ -12,9 +12,15 @@ function Experience(props: any) {
       </div>
       <div className='exp-date'>
         {job.dateRange}
-      </div>  
+      </div>
       <div className='content'>
-        {job.description}
+        <ul>
+          {
+            job.description.map((bullet: string) => {
+              return <li>‣ {bullet}</li>
+            })
+          }
+        </ul>
       </div>
       {GetSkills(job.skills)}
     </div>
